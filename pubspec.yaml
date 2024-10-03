@@ -4,17 +4,17 @@ version: 0.0.7
 homepage: https://github.com/bentouch-digital/docusign-flutter.git
 
 environment:
-  sdk: '>=2.18.4 <3.0.0'
+  sdk: '>=2.18.4'
   flutter: ">=2.5.0"
 
 dependencies:
-  dart_jsonwebtoken: ^2.5.1
+  dart_jsonwebtoken: ^2.14.1
   flutter:
     sdk: flutter
-  http: ^0.13.5
-  path_provider: ^2.0.11
-  plugin_platform_interface: ^2.0.2
-  webview_flutter: ^3.0.4
+  http: ^1.2.2
+  path_provider: ^2.1.4
+  plugin_platform_interface: ^2.1.8
+  webview_flutter: ^4.9.0
 
 dev_dependencies:
   flutter_test:
